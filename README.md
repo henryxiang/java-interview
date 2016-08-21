@@ -42,6 +42,6 @@ GET    | /api/employee?{firstname,lastname,title}=%query% | none | list of emplo
 
 ### Extra Credits
 
-1. Create unit test for each data access object (DAO) and automate testing during project build process.
+1. Create unit test for each data access object (DAO) method and automate testing during project build process.
 2. Add Spring Security dependency to the project and implement a simple role-based access control to all API URLs.
 
