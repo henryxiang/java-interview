@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
     @RequestMapping(value = "/welcome.htm", method = RequestMethod.GET)
     public String index() {
-        return "UCD A&FS Java Developer Interview";
+        return "UCD Java Developer Coding Test";
     }
 }
