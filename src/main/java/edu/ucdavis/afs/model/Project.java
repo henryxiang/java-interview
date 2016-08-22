@@ -1,5 +1,7 @@
 package edu.ucdavis.afs.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
@@ -18,6 +20,7 @@ public class Project implements Serializable {
     private Date deadline;
     private Date finishDate;
     @ManyToMany(mappedBy="projects")
+    @JsonIgnore
     private List<Employee> employees;
 
     public Long getId() {

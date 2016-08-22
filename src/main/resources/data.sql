@@ -1,49 +1,57 @@
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Amin', 'Strosin', 'Advertising account planner', '2005-10-01', '875 Stacey Courts
-East Thermanville, IA 44885', '185-211-3220', 'weimannantonia@hotmail.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Malcolm', 'Pollich', 'Engineer, communications', '2012-01-19', '8225 Cummings Stravenue Apt. 419
-Rosalindahaven, NY 41572', '064.193.0734x50303', 'zlakin@gmail.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Chaz', 'Ullrich', 'Geochemist', '2002-05-31', '428 Jamarcus Land
-Fisherborough, TN 38147', '1-992-570-0580x97395', 'gibsonayanna@boyer-kutch.biz');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Jordyn', 'Becker', 'Physiological scientist', '2008-04-30', '74115 Anice Burg Apt. 409
-Mayertside, FL 50799-5265', '+82(8)5442350451', 'nienowlaken@rosenbaum.info');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Aimee', 'Kulas', 'Editorial assistant', '2002-11-24', '0997 Jast Port
-Hildurview, PA 54552', '+57(3)6608052306', 'hyattcarmel@hotmail.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Gary', 'Eichmann', 'Surveyor, minerals', '2006-06-19', '688 Green Dale
-Rayburnton, NC 60098', '916-845-5801x4350', 'pollichclarine@yahoo.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Beaulah', 'Blick', 'Metallurgist', '2009-07-29', '15656 Kreiger Orchard
-New Hildurstad, TN 79902-0618', '573.284.4738', 'judgesmitham@aufderhar.org');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Hulda', 'Schinner', 'Engineer, materials', '2005-02-05', '546 Koch Shores
-East Robert, LA 74850', '(514)896-0612', 'alwinamosciski@raynor-kuhlman.info');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Ebbie', 'Collins', 'Production assistant, radio', '2004-05-27', '0095 Mayer Flats Suite 881
-North Gunner, AZ 44614', '1-009-493-3228x780', 'rutherfordclaudie@hotmail.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Eden', 'Kunze', 'Psychotherapist, child', '2007-07-03', 'PSC 1514, Box 9227
-APO AE 91738-3077', '719-399-5912x1334', 'metzangelic@gislason.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Vela', 'Wiegand', 'Technical brewer', '2009-08-23', '3821 Glenn Lake Suite 997
-East Migdaliaburgh, NJ 85563-6797', '1-458-594-1394x627', 'deloris88@yahoo.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Summer', 'Price', 'Librarian, public', '2014-05-10', '535 Murazik Ranch
-North Princessmouth, TN 65778-9714', '(153)577-1679x80954', 'una41@hotmail.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Ariella', 'VonRueden', 'Ceramics designer', '2013-08-26', '84542 Haley Corner Suite 101
-East Mariabury, MA 99680', '885.364.8450', 'vcrooks@yahoo.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Alvia', 'Christiansen', 'Phytotherapist', '2004-09-20', '403 Murazik Shores Suite 883
-Lake Emmett, UT 76223', '(904)503-9568x74888', 'cklein@daugherty.biz');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Skip', 'Beer', 'Civil Service administrator', '2015-07-02', '788 Jamison Fall
-Waldemarland, IN 78838-7311', '093.213.6680', 'xgoldner@block.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Beverly', 'Prosacco', 'Engineer, agricultural', '1996-12-07', '5750 Maxine Court
-North Vonchester, AK 45340', '1-020-193-9120x0132', 'marielareinger@turner.biz');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Derrell', 'Leuschke', 'Biochemist, clinical', '2011-10-18', '799 Mraz Village
-East Dominick, TN 40612', '1-947-630-0976', 'jazmingerlach@gmail.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Isham', 'Spinka', 'Public relations account executive', '2010-08-03', '562 Lasonya Rapids
-North Petrafort, WY 33026', '08148855862', 'uwatsica@gmail.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Bailey', 'Stracke', 'Engineer, structural', '1997-06-12', '2276 Madison Mountains Suite 155
-Schroederview, VA 12794-8916', '257-379-6010x727', 'ngoldner@gmail.com');
-insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Estefany', 'Boyer', 'Hydrographic surveyor', '2007-05-28', '9778 Christina Tunnel
-North Trinidadland, NV 71659-0203', '1-173-372-9054', 'altheamraz@hotmail.com');
-insert into project(project_name, deadline) values ('Project 1', '2017-03-12');
-insert into project(project_name, deadline) values ('Project 2', '2017-05-09');
-insert into project(project_name, deadline) values ('Project 3', '2017-04-20');
-insert into project(project_name, deadline) values ('Project 4', '2017-04-17');
-insert into project(project_name, deadline) values ('Project 5', '2017-01-10');
-insert into project(project_name, deadline) values ('Project 6', '2016-09-28');
-insert into project(project_name, deadline) values ('Project 7', '2017-08-14');
-insert into project(project_name, deadline) values ('Project 8', '2016-12-31');
-insert into project(project_name, deadline) values ('Project 9', '2017-07-21');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Annemarie', 'Reilly', 'Engineer, technical sales', '2012-06-05', '098 Thedore Heights
+West Eliza, MT 08998', '(851)642-5531', 'juelzdach@kris.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Reason', 'Aufderhar', 'Psychologist, prison and probation services', '1996-09-25', '84557 Powlowski Knolls
+Port Jimburgh, NJ 21837', '1-094-979-9154x12867', 'odibbert@hotmail.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Etter', 'Shields', 'Sports therapist', '2005-05-02', '75016 Saniyah Fork
+Mayertton, NE 24868-5122', '(339)981-5167x220', 'klarkin@welch-schmitt.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Tomeka', 'Cronin', 'Engineer, water', '2001-11-02', 'PSC 5684, Box 0215
+APO AA 57063-6631', '221.246.9934x182', 'hesselpaula@yahoo.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Benjman', 'Hamill', 'Accountant, chartered management', '2003-04-05', '17491 Stafford Place
+New Alfredoport, PW 70592-0807', '07353970485', 'hamillaliya@yahoo.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Krystle', 'Quigley', 'Local government officer', '2006-11-13', 'Unit 9678 Box 2777
+DPO AE 75249', '980.042.2154', 'carribauch@brekke-oconnell.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Rock', 'VonRueden', 'Environmental consultant', '1997-06-20', '667 Kuphal Bypass Suite 640
+Marvinville, WA 29067', '+64(3)6459957753', 'hschinner@gmail.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Alexandr', 'Wisoky', 'Solicitor, Scotland', '2007-08-31', '744 Lennie Track Apt. 706
+New Halley, WY 61000', '478.584.9249x10656', 'camilolakin@kertzmann-legros.net');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Coleton', 'Champlin', 'Politician''s assistant', '2007-05-25', '2756 Karyl Meadow Apt. 832
+Johnstonbury, MS 86089', '398-376-6415x7408', 'estie39@yahoo.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Michial', 'Adams', 'Petroleum engineer', '2013-06-15', '849 Tilden Ridge Apt. 832
+Bartolettiborough, VI 43371', '789.819.1774x73953', 'swaniawskievelynn@hotmail.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Gannon', 'Bahringer', 'Editor, magazine features', '2007-05-10', '928 Reilly Forest
+North Jerradburgh, PR 25799-0548', '899.046.6158', 'osmitham@yahoo.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Isabelle', 'Nader', 'Production assistant, radio', '2013-02-14', '79208 Medhurst Route
+Georgetteview, PA 45804', '(889)182-6263x6082', 'rosita47@aufderhar.biz');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Jordy', 'Towne', 'Primary school teacher', '2009-06-10', '65634 Rosalee Mountains
+Lake Leehaven, CT 89212', '786.952.8457x2861', 'hegmannkendal@gmail.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Gregg', 'Bins', 'Electronics engineer', '1999-07-19', '6518 Jerde Shoal Apt. 785
+West Lulaside, IL 80096-1647', '570.763.2860', 'cassidydare@collier-hammes.net');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Jensen', 'Wunsch', 'Health and safety inspector', '2006-10-04', '135 Klocko Prairie
+Port Rebeca, FL 10302', '+94(9)3738810196', 'vpadberg@wisoky-lang.info');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Ethyle', 'Morissette', 'Furniture conservator/restorer', '1999-04-17', '20896 Jaymes Estate Suite 013
+Hilpertchester, AK 94955', '(146)779-8796x568', 'liddiedibbert@schowalter.biz');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Eldora', 'Reinger', 'Recycling officer', '1999-03-22', '28024 Bogan Loaf
+Port Julien, SC 70501-7557', '04828009314', 'jdickens@blanda-jacobson.org');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Tai', 'Kreiger', 'Armed forces logistics/support/administrative officer', '2002-06-16', '188 Armond Mission Suite 338
+Justusport, OR 10852-8433', '431.076.2881', 'koelpinkathey@johnston-tremblay.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Alek', 'Lang', 'Presenter, broadcasting', '1998-04-02', '180 Phylis Ways
+Farrellchester, AR 43516-9775', '509-379-5348', 'laney20@mueller-hammes.com');
+insert into employee(first_name, last_name, job_title, hired_date, address, phone, email) values('Laraine', 'Kuhic', 'Metallurgist', '1997-07-20', '10514 Christiansen Fields
+Briannehaven, KS 76209', '06794103159', 'elyseorn@stanton.com');
+insert into project(project_name, deadline) values ('Project 1', '2016-09-22');
+insert into project(project_name, deadline) values ('Project 2', '2016-10-04');
+insert into project(project_name, deadline) values ('Project 3', '2016-09-20');
+insert into project(project_name, deadline) values ('Project 4', '2017-03-25');
+insert into project(project_name, deadline) values ('Project 5', '2017-07-05');
+insert into project(project_name, deadline) values ('Project 6', '2017-01-02');
+insert into project(project_name, deadline) values ('Project 7', '2017-08-12');
+insert into project(project_name, deadline) values ('Project 8', '2016-10-09');
+insert into project(project_name, deadline) values ('Project 9', '2017-04-18');
+insert into employee_project(employees_id, projects_id) values (1, 1);
+insert into employee_project(employees_id, projects_id) values (1, 2);
+insert into employee_project(employees_id, projects_id) values (2, 3);
+insert into employee_project(employees_id, projects_id) values (2, 4);
+insert into employee_project(employees_id, projects_id) values (3, 5);
+insert into employee_project(employees_id, projects_id) values (3, 6);
+insert into employee_project(employees_id, projects_id) values (4, 7);
+insert into employee_project(employees_id, projects_id) values (4, 8);

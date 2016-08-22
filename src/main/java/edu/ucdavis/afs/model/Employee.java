@@ -2,6 +2,7 @@ package edu.ucdavis.afs.model;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -26,7 +27,7 @@ public class Employee implements Serializable {
     private String address;
     @ManyToMany
     @JoinTable(name="EMPLOYEE_PROJECT")
-    private List<Project> projects;
+    private List<Project> projects = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -98,6 +99,37 @@ public class Employee implements Serializable {
 
     public void setProjects(List<Project> projects) {
         this.projects = projects;
+    }
+
+    public void addProject(Project project) { this.projects.add(project); }
+
+    public void removeProject(Project project) { this.projects.remove(project); }
+
+    public void copyEmployee(Employee clone) {
+        if (this.firstName != null && !this.firstName.equals(clone.getFirstName())) {
+            clone.setFirstName(this.firstName);
+        }
+        if (this.lastName != null && !this.lastName.equals(clone.getLastName())) {
+            clone.setLastName(this.lastName);
+        }
+        if (this.jobTitle != null && !this.jobTitle.equals(clone.getJobTitle())) {
+            clone.setJobTitle(this.jobTitle);
+        }
+        if (this.hiredDate != null && !this.hiredDate.equals(clone.getHiredDate())) {
+            clone.setHiredDate(this.hiredDate);
+        }
+        if (this.email != null && !this.email.equals(clone.getEmail())) {
+            clone.setEmail(this.email);
+        }
+        if (this.phone != null && !this.phone.equals(clone.getPhone())) {
+            clone.setPhone(this.phone);
+        }
+        if (this.address != null && !this.address.equals(clone.getAddress())) {
+            clone.setAddress(this.address);
+        }
+        if (this.projects != null && this.projects.size() > 0 && !this.projects.equals(clone.getProjects())) {
+            clone.setProjects(this.projects);
+        }
     }
 
     @Override
