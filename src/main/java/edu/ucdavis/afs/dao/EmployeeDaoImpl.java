@@ -27,8 +27,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
         TypedQuery<Employee> query = entityManager.createQuery(jpql, Employee.class);
         query.setParameter("id", employeeId);
         try {
-            Employee employee = query.getSingleResult();
-            return employee;
+            return query.getSingleResult();
         }
         catch (Exception e) {
             return null;

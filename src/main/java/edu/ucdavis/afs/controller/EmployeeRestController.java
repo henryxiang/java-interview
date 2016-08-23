@@ -45,8 +45,14 @@ public class EmployeeRestController {
         @RequestParam(value = "title", required = false) String jobTitle,
         HttpServletResponse response)
     {
-        // TODO: implement this method per requirements
-        return null;
+        try {
+            return employeeDao.findEmployees(firstName, lastName, jobTitle);
+        }
+        catch (Exception e) {
+            response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+            return null;
+        }
+
     }
 
     @Transactional

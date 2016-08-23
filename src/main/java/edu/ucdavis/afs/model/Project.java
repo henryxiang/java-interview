@@ -15,10 +15,14 @@ public class Project implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @Column(nullable = false)
     private String projectName;
+
     private Date deadline;
+
     private Date finishDate;
+
     @ManyToMany(mappedBy="projects")
     @JsonIgnore
     private List<Employee> employees;

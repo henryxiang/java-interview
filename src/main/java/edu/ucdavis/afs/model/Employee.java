@@ -14,17 +14,25 @@ public class Employee implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @Column(nullable = false)
     private String firstName;
+
     @Column(nullable = false)
     private String lastName;
+
     @Column(nullable = false)
     private String jobTitle;
+
     @Column(nullable = false)
     private Date hiredDate;
+
     private String email;
+
     private String phone;
+
     private String address;
+
     @ManyToMany
     @JoinTable(name = "EMPLOYEE_PROJECT")
     private List<Project> projects = new ArrayList<>();
