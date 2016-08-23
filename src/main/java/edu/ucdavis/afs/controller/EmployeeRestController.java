@@ -29,7 +29,6 @@ public class EmployeeRestController {
         Employee employee = employeeDao.getEmployeeById(id);
         Project project = projectDao.getProjectById(1L);
         if (employee != null) {
-            //employee.addProject(project);
             return employee;
         }
         else {
@@ -52,11 +51,20 @@ public class EmployeeRestController {
 
     @Transactional
     @RequestMapping(value = "/api/employee", method = RequestMethod.POST)
-    public @ResponseBody String saveEmployee(
+    public @ResponseBody Long saveEmployee(
         @RequestBody Employee employee,
         HttpServletResponse response)
     {
-        // TODO: implement this method per requirements
-        return null;
+        try {
+            Long id = employeeDao.saveEmployee(employee);
+            if (id == null) {
+                response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+            }
+            return id;
+        }
+        catch (Exception e) {
+            response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+            return null;
+        }
     }
 }

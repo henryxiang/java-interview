@@ -26,7 +26,7 @@ public class Employee implements Serializable {
     private String phone;
     private String address;
     @ManyToMany
-    @JoinTable(name="EMPLOYEE_PROJECT")
+    @JoinTable(name = "EMPLOYEE_PROJECT")
     private List<Project> projects = new ArrayList<>();
 
     public Long getId() {
@@ -101,9 +101,13 @@ public class Employee implements Serializable {
         this.projects = projects;
     }
 
-    public void addProject(Project project) { this.projects.add(project); }
+    public void addProject(Project project) {
+        this.projects.add(project);
+    }
 
-    public void removeProject(Project project) { this.projects.remove(project); }
+    public void removeProject(Project project) {
+        this.projects.remove(project);
+    }
 
     public void copyEmployee(Employee clone) {
         if (this.firstName != null && !this.firstName.equals(clone.getFirstName())) {
@@ -127,7 +131,7 @@ public class Employee implements Serializable {
         if (this.address != null && !this.address.equals(clone.getAddress())) {
             clone.setAddress(this.address);
         }
-        if (this.projects != null && this.projects.size() > 0 && !this.projects.equals(clone.getProjects())) {
+        if (this.projects != null && !this.projects.equals(clone.getProjects())) {
             clone.setProjects(this.projects);
         }
     }
